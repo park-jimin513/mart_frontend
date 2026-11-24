@@ -7249,6 +7249,7 @@ input, select, textarea {
     width: calc(100% - 16px);
     max-width: 260px;
     min-height: 58px;
+    pointer-events: auto;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
