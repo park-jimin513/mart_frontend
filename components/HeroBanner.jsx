@@ -169,7 +169,12 @@ export default function HeroBanner() {
                       {slide.action} <ArrowRight size={15} />
                     </button>
                   ) : (
-                    <Link href={slide.href} className="hero-featured-link">
+                    <Link
+                      href={slide.href}
+                      className="hero-featured-link"
+                      onPointerDown={() => setIsPaused(true)}
+                      onClick={() => setIsPaused(true)}
+                    >
                       {slide.action} <ArrowRight size={15} />
                     </Link>
                   )}

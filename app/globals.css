@@ -7249,6 +7249,7 @@ input, select, textarea {
     width: calc(100% - 16px);
     max-width: 260px;
     min-height: 58px;
+    z-index: 4;
     pointer-events: auto;
     flex-direction: row;
     align-items: center;
@@ -7287,6 +7288,9 @@ input, select, textarea {
   }
 
   .home-page-container .hero-featured-link {
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
     padding: 7px 8px;
     font-size: 9px;
   }
